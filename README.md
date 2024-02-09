@@ -7,10 +7,11 @@ This repository contains a maven project setup for BDD testing using Cucumber, w
 
 ## Prerequisites
 
-Before you begin, ensure you have the following software installed
- ** Java
- ** Maven 
- ** Any IDE that supports Maven projects like IntelliJ or Eclipse
+Before you begin, ensure you have the following software installed.
+
+* Java
+* Maven 
+* Any IDE that supports Maven projects like IntelliJ or Eclipse
 
  ## Getting started
  1. Clone the repository to your local machine
