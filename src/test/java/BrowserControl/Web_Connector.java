@@ -26,10 +26,6 @@ public class Web_Connector {
             }
             driver = new ChromeDriver(co);
         }
-
-        // If using implicit wait is has to be defined here.
-//        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
     }
 
     public static void closeBrowser() {
