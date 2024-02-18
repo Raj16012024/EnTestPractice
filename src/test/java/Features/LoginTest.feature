@@ -1,10 +1,10 @@
 Feature: Login Test feature
 
-  Background: : 1. Navigate to the website
+  Background: : Navigate to the website
     Given the user navigates to the homepage
 
   @SmokeTest1
-  Scenario Outline: Verify Login details in the Data_Driven format
+  Scenario Outline: 1. Verify Standard User Login details in the Data_Driven format
     When the user login with "<Username>" username and "<Password>" password
     Then the user should see "<Expected Text>" text on the page
     Examples:
@@ -16,7 +16,7 @@ Feature: Login Test feature
       |               |              | Epic sadface: Username is required                                        |
 
   @SmokeTest2
-  Scenario Outline: Verify Login details in the Data_Driven format
+  Scenario Outline: 2. Verify Locked out User Login details in the Data_Driven format
     When the user login with "<Username>" username and "<Password>" password
     Then the user should see "<Expected Text>" text on the page
     Examples:
