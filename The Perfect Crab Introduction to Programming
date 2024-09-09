@@ -1,0 +1,64 @@
+mission denied
+If you're seeing scrolling text on the right,
+  you're in the wrong place.
+Hit the 'Fork' button to get started.
+
+Otherwise: welcome home.
+This is your shell.
+You can use it to run Python programs.
+
+If you ever lose it, hit the big green 'Run' button.
+
+To run a test Python program, type:
+  python lib/trial.py
+
+And then hit enter.
+bash-5.1$ python lib/trial.py
+If you need to force-quit this program, press Ctrl+C.
+Hi, what's your name? [Type below]
+Raj 
+Hello, Raj! You ran me successfully!
+If you haven't already, open 000_START_HERE.md in the sidebar.
+bash-5.1$ python 011_identity.py
+If you need to force-quit this program, press Ctrl+C.
+just_return_it(4) returns:
+4
+bash-5.1$ python 012_add_one.py
+If you need to force-quit this program, press Ctrl+C.
+add_one(6) returns:
+7
+bash-5.1$ python 013_add_two.py
+If you need to force-quit this program, press Ctrl+C.
+Function: add_two
+EXPECTED: 8
+ACTUAL:   8
+That's correct! (1 checks right so far)
+
+bash-5.1$ python 014_multiply_numbers.py
+If you need to force-quit this program, press Ctrl+C.
+multiply_numbers(2, 3) is:
+6
+multiply_numbers(3, 5) is:
+15
+bash-5.1$ python 015_add_numbers.py
+If you need to force-quit this program, press Ctrl+C.
+add_numbers(2, 3) is:
+EXPECTED: 5
+ACTUAL:   5
+That's correct! (1 checks right so far)
+
+add_numbers(3, 5) is:
+EXPECTED: 8
+ACTUAL:   8
+That's correct! (2 checks right so far)
+
+bash-5.1$ python 016_operators.py
+If you need to force-quit this program, press Ctrl+C.
+2 + 3 = 5 (should be 5)
+2 * 3 = 6 (should be 6)
+2 - 3 = -1 (should be -1)
+2 / 3 = 0.6666666666666666 (should be 0.6666666666666666)
+3 % 2 = 1 (should be 1)
+2 // 3 = 0 (should be 0)
+2 ** 3 = 8 (should be 8)
+bash-5.1$ 
